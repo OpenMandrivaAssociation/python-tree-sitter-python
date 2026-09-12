@@ -35,5 +35,5 @@ python -m pip install \
 %files
 %doc README.md
 %license LICENSE
-%{python_sitearch}/tree_sitter_python*
+%{python_sitearch}/tree_sitter_python
 %{python_sitearch}/tree_sitter_python-*.*-info
