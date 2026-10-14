@@ -1,6 +1,6 @@
 Name:		python-tree-sitter-python
 Version:	0.25.0
-Release:	1
+Release:	2
 Summary:	Tree-sitter python grammar (Python bindings)
 License:	MIT
 Group:		Development/Python
@@ -9,7 +9,7 @@ Source0:	https://files.pythonhosted.org/packages/b8/8b/c992ff0e768cb6768d5c96234
 # PyPI sdist omits src/scanner.c; parser.c still references it
 Source1:	tree-sitter-python-scanner.c
 BuildRequires:	python
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	clang
